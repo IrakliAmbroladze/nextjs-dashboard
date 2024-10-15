@@ -4,8 +4,10 @@ import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
 import { lusitana } from '@/app/ui/fonts';
 import { fetchLatestInvoices, fetchCardData} from '@/app/lib/data';
 import { Suspense } from 'react';
-import { RevenueChartSkeleton } from '@/app/ui/skeletons';
-import { InvoicesTableSkeleton } from '@/app/ui/skeletons';
+import { 
+  RevenueChartSkeleton,
+  InvoicesTableSkeleton 
+} from '@/app/ui/skeletons';
 
  
 export default async function Page() {
